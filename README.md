@@ -27,7 +27,7 @@ Install my-project with npm
     
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/BipronathSaha99/User_Info_Form/blob/main/LICENSE)
 
   
 ## Authors

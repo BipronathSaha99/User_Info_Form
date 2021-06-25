@@ -1,0 +1,93 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body{
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+body{
+    background: url(/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.dark-overlay{
+    background: rgba(0,0,0,0.5);
+    min-height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.form-login{
+    background: rgba(234, 240, 241,.35);
+    border-radius: 10px;
+    max-width: 450px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 100px auto;
+
+}
+
+.btn-color{
+    background-color: #8DB670;
+}
+
+.btn-color:hover{
+    background-color: #32243C;
+    color: #f9f9f9;
+    transition: 0.5s;
+}
+
+/* Responsive Design*/
+
+@media screen and (min-width:768px)and(max-width:991px){
+
+    .form-login{
+        
+        
+        max-width: 500px;
+        width: 100%;
+        padding: 20px 20px;
+        margin: 100px auto;
+    
+    }
+    
+}
+
+@media screen and (min-width:576px)and(max-width:767px){
+
+    .form-login{
+        
+        
+        max-width: 500px;
+        width: 100%;
+        padding: 20px 20px;
+        margin: 100px auto;
+    
+    }
+    
+}
+
+@media screen and (max-width:575px){
+
+    .form-login{
+        
+        
+        max-width: 450px;
+        width: 100%;
+        padding: 20px 20px;
+        margin: 100px auto;
+    
+    }
+    
+}
+

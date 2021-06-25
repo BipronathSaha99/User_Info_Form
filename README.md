@@ -20,7 +20,7 @@ This is a simple login information form desined using Bootstrap.
 Install my-project with npm
 
 ```bash 
-    npm install bootstrap, popper.js, Font-Awesome
+    npm install bootstrap, popper.js
     npm install Login-Form
     cd Login-Form
 ```
